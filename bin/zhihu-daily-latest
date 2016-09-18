@@ -12,5 +12,4 @@ program
   .description('fetch latest news')
   .parse(process.argv)
 
-console.log()
 Crawlers.latest()
