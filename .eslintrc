@@ -5,6 +5,10 @@
         "node": true,
         "es6": true
     },
+    "globals": {
+      "Prompts": true,
+      "Crawlers": true
+    },
     "rules": {
         "arrow-parens": [2, "as-needed"]
     }

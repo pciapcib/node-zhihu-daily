@@ -1,0 +1,16 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+
+const Prompts = require('../lib/prompts')
+const Crawlers = require('../lib/crawlers')
+
+global.Prompts = Prompts
+global.Crawlers = Crawlers
+
+program
+  .description('run main menu')
+  .parse(process.argv)
+
+console.log()
+Prompts.menu()
