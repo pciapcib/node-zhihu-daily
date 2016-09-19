@@ -4,9 +4,11 @@ const program = require('commander')
 
 const Prompts = require('../lib/prompts')
 const Crawlers = require('../lib/crawlers')
+const Printers = require('../lib/printers')
 
 global.Prompts = Prompts
 global.Crawlers = Crawlers
+global.Printers = Printers
 
 program
   .description('run main menu')
