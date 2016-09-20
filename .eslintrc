@@ -8,7 +8,8 @@
     "globals": {
       "Prompts": true,
       "Crawlers": true,
-      "Printers": true
+      "Printers": true,
+      "Store": true
     },
     "rules": {
         "arrow-parens": [2, "as-needed"]

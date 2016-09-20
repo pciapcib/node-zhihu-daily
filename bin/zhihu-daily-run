@@ -9,6 +9,11 @@ const Printers = require('../lib/printers')
 global.Prompts = Prompts
 global.Crawlers = Crawlers
 global.Printers = Printers
+global.Store = {
+  backPrompt: '',
+  newsDate: '',
+  extra: ''
+}
 
 program
   .description('run main menu')
