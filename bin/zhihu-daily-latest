@@ -5,6 +5,7 @@ const program = require('commander')
 const Prompts = require('../lib/prompts')
 const Crawlers = require('../lib/crawlers')
 const Printers = require('../lib/printers')
+const Cache = require('../lib/util/cache')
 
 global.Prompts = Prompts
 global.Crawlers = Crawlers
@@ -14,7 +15,10 @@ global.Store = {
 }
 
 program
-  .description('fetch latest news')
+  .usage(' ')
+  .description('Fetch latest news')
   .parse(process.argv)
+
+Cache.watch()
 
 Crawlers.latest()

@@ -1,0 +1,19 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+
+const Cache = require('../lib/util/cache')
+
+program
+  .usage('[option]')
+  .description('Clear cache files')
+  .option('-s, --show', 'show current cache size')
+  .parse(process.argv)
+
+if (program.show) {
+  console.log(`Cache size: ${Cache.show()}`)
+
+  process.exit()
+}
+
+Cache.clear()

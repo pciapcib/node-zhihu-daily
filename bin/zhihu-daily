@@ -6,7 +6,8 @@ const { version } = require('../package')
 
 program
   .version(version)
-  .usage(' ')
+  .usage('<command> [option]')
   .command('run', 'run main menu').alias('r')
   .command('latest', 'fetch latest news').alias('l')
+  .command('clear', 'clear cache files').alias('c')
   .parse(process.argv)

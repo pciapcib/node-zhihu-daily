@@ -5,6 +5,7 @@ const program = require('commander')
 const Prompts = require('../lib/prompts')
 const Crawlers = require('../lib/crawlers')
 const Printers = require('../lib/printers')
+const Cache = require('../lib/util/cache')
 
 global.Prompts = Prompts
 global.Crawlers = Crawlers
@@ -14,8 +15,11 @@ global.Store = {
 }
 
 program
-  .description('run main menu')
+  .usage(' ')
+  .description('Run main menu')
   .parse(process.argv)
+
+Cache.watch()
 
 console.log()
 Prompts.menu()
