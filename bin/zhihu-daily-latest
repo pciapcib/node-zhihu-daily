@@ -9,7 +9,9 @@ const Printers = require('../lib/printers')
 global.Prompts = Prompts
 global.Crawlers = Crawlers
 global.Printers = Printers
-global.Store = {}
+global.Store = {
+  backPrompts: []
+}
 
 program
   .description('fetch latest news')
