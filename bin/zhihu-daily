@@ -10,5 +10,7 @@ program
   .command('run', 'run zhihu daily').alias('r')
   .command('latest', 'fetch latest news').alias('l')
   .command('news', 'fetch previous news via date').alias('n')
+  .command('theme', 'fetch theme newspapers').alias('t')
+  .command('section', 'fetch zhihu sections').alias('s')
   .command('clear', 'clear cache files').alias('c')
   .parse(process.argv)
