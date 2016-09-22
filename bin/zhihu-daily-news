@@ -16,10 +16,9 @@ global.Store = {
 
 program
   .usage(' ')
-  .description('Run zhihu daily')
+  .description('Fetch previous news via date')
   .parse(process.argv)
 
 Cache.watch()
 
-console.log()
-Prompts.menu()
+Prompts.newsInput()
