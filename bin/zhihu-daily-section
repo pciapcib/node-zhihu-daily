@@ -1,0 +1,24 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+
+const Prompts = require('../lib/prompts')
+const Crawlers = require('../lib/crawlers')
+const Printers = require('../lib/printers')
+const Cache = require('../lib/util/cache')
+
+global.Prompts = Prompts
+global.Crawlers = Crawlers
+global.Printers = Printers
+global.Store = {
+  backPrompts: []
+}
+
+program
+  .usage(' ')
+  .description('Fetch zhihu sections')
+  .parse(process.argv)
+
+Cache.watch()
+
+Crawlers.sections()
