@@ -10,9 +10,7 @@ const Cache = require('../lib/util/cache')
 global.Prompts = Prompts
 global.Crawlers = Crawlers
 global.Printers = Printers
-global.Store = {
-  backPrompts: []
-}
+global.Store = {}
 
 program
   .usage(' ')
