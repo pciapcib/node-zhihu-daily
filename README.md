@@ -1,4 +1,4 @@
-# node-dictionary
+# node-zhihu-daily
 
 [![node](https://img.shields.io/node/v/node-zhihu-daily.svg)](https://www.npmjs.com/package/node-zhihu-daily)
 [![npm version](https://img.shields.io/npm/v/node-zhihu-daily.svg)](https://www.npmjs.com/package/node-zhihu-daily)
@@ -37,21 +37,21 @@ Options:
 
 ### Fetch latest newspaper
 
-![latest](https://pciapcib.github.io/node-zhihu-daily/assets/latest.jpg)
+![latest](./assets/latest.jpg)
 
 ### Read news
 
-![story](https://pciapcib.github.io/node-zhihu-daily/assets/story-1.jpg)
+![story](./assets/story-1.jpg)
 
-![story](https://pciapcib.github.io/node-zhihu-daily/assets/story-2.jpg)
+![story](./assets/story-2.jpg)
 
 ### Fetch theme newspapers
 
-![themes](https://pciapcib.github.io/node-zhihu-daily/assets/themes.jpg)
+![themes](./assets/themes.jpg)
 
 ### Fetch zhihu sections
 
-![sections](https://pciapcib.github.io/node-zhihu-daily/assets/sections.jpg)
+![sections](./assets/sections.jpg)
 
 ## Credits
 
