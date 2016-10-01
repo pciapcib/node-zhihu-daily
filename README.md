@@ -61,6 +61,7 @@ Options:
 * [inquirer](https://github.com/SBoudrias/Inquirer.js/) by [SBoudrias](https://github.com/SBoudrias)
 * [cheerio](https://github.com/cheeriojs/cheerio/) by [cheeriojs](https://github.com/cheeriojs)
 * [chalk](https://github.com/chalk/chalk) by [chalk](https://github.com/chalk)
+* [text-table](https://github.com/substack/text-table) by [substack](https://github.com/substack)
 
 ## License
 
